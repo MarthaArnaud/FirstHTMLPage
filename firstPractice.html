@@ -1,0 +1,171 @@
+
+<!--Accesible elements
+<!DOCTYPE html>
+<img alt>
+<thead>
+<tbody>
+<tfoot>
+<label>
+<section>
+<main>
+<header>
+<footer>
+<address>
+<nav>
+<article>
+<center>
+
+
+Block
+<hi> up to <h6>
+<p>
+<ul>
+<ol>
+<form> anything that the user can provide as information
+<div> has the most hierarchy in html
+
+Inline
+<a>
+<img/>
+<button>
+<input/>
+<label>
+<select>
+<textarea>
+<button>
+<span only holds text or another span-->
+
+
+
+<!DOCTYPE html><!--letting the browser to know which version, this is version 5 just by adding this line-->
+<html lang="en">
+	<head>
+		<title>
+		Title of page
+		</title>
+		<meta charset ="UTF-8">
+		</head>
+		<body>
+			<ol>					
+	<li>				
+	One
+	</li>
+	<li>
+	Two
+	</li>
+	</ol>
+
+<ul>			 
+	<li>		
+	One
+	</li>
+	<li>
+	Two
+	</li>
+	</ul>
+
+
+<table>
+	<thead>
+		<tr>
+			<th>
+			Column 1
+			</th>
+			<th>
+			Column 2
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+			Data 1
+			</td>
+			<td>
+			Data 2
+			</td>
+		</tr>
+			<tr>
+			</tr>
+	</tbody>
+
+
+	<tfoot> <!--in case you want to use the last line as a footer-->
+		<tr>
+		</tr>
+	</tfoot> 
+</table>
+
+
+<form>
+	<fieldset>
+		<legend>
+			Title of form
+		</legend>
+		<div>
+		<label for="user-name" ><!--match for with id, class es opcional para  agrupar elementos-->
+			Username
+		</label>
+		<input type="text" id="user-name" class="info" name="user"/>
+	</div>
+	<div>
+		<label for="password">
+			Password
+		</label>
+		<input type="password" id="password"/>
+	</div>
+	<div>
+		<label for="range_1">
+		From 10-20
+	</label>
+	<input type="checkbox" value="10-20" id="range_1" name="age_range"/>
+	</div>
+	<div>
+		<label for="range_2">
+			From 20-30
+		</label>
+		<input type="checkbox" name="age_range" id="range_2" value="21-30"/>
+	</div>
+	<div>
+		<input type="radio" name="gender"><!--names must be the exact for radio buttons so only one option is selected, also for checboxes-->
+	</fieldset>
+</form>
+<form>
+	<fieldset>
+		<legend>
+			Title of form
+		</legend>
+		<label for="country">
+			Select a country
+		</label>
+		<select id="country" name="country">
+			<option value="MX">
+				Mexico
+			</option>
+			<option value="FR">
+				France
+			</option>
+		</select>
+		<textarea name ="comment">
+		</textarea>
+		<input type="submit" value="submit"/>
+		<button type="submit">
+			Submit
+		</button>
+	</fieldset>
+</form>
+
+<!--Other input types
+<input type="number"/>
+<input type="date"/>
+<input type="email"/>
+<input type="tel"/-->
+
+<!-- Naming id  and class attributes
+*never begin with a number
+*by standar begin with lowercase letter
+*follow with [a-z][A-Z][0-9][-_]-->
+
+
+
+
